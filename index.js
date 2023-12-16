@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = 5000;
+const PORT = 8080;
 
 // new imports
 const http = require("http");
@@ -10,7 +10,7 @@ const cors = require("cors");
 const { Server } = require("socket.io");
 const socketIO = new Server(server, {
   cors: {
-    origin: "thtp://localhost:5173",
+    origin: "http://localhost:5173",
   },
 });
 
