@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = 8080;
 
-// new imports
+// socket imports
 const http = require("http");
 const server = http.createServer(app);
 const cors = require("cors");
